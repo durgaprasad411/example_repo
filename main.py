@@ -4,6 +4,7 @@ import io
 from PIL import Image
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
+# this is an example comment
 
 load_dotenv()
 model=ChatGoogleGenerativeAI(model='gemini-2.0-flash-exp')
